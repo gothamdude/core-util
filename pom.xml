@@ -6,7 +6,7 @@
 
     <groupId>com.gothamdude</groupId>
     <artifactId>core-util</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>gothamdude - core util library</name>
