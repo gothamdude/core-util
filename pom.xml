@@ -11,7 +11,7 @@
 
     <name>gothamdude - core util library</name>
     <description>
-        A reusable maven based util library.
+        A reusable Maven-based util library.
     </description>
 
     <properties>
