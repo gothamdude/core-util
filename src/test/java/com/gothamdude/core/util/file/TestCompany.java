@@ -7,7 +7,7 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 import java.util.List;
 
 @JacksonXmlRootElement(localName = "company")
-class Company {
+class TestCompany {
     @JacksonXmlProperty(isAttribute = true)
     private String name;
 
@@ -16,8 +16,8 @@ class Company {
     private List<String> employeeList;
 
     // Getters, Setters, Constructors
-    public Company() {}
-    public Company(String name, List<String> employeeList) {
+    public TestCompany() {}
+    public TestCompany(String name, List<String> employeeList) {
         this.name = name;
         this.employeeList = employeeList;
     }
