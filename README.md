@@ -25,6 +25,9 @@ mvn clean package
 
 - **`date/`** — `DateUtil`: LocalDate operations (format, parse, add days, convert to/from legacy `java.util.Date`). Uses `yyyy-MM-dd` as the standard format.
 - **`time/`** — `TimeUtil`: EST/EDT ↔ UTC conversions using `ZonedDateTime`; handles DST automatically. Uses `yyyy-MM-dd HH:mm:ss` format.
+- **`file/`** — `CsvFileProcessor`: process csv files 
+- **`file/`** — `JsonFileProcessor`: process json files
+- **`file/`** — `XmlFileProcessor`: process xml files
 - **`classpath/`**, **`file/`**, **`string/`** — placeholder packages with no implementation yet.
 
 All utility classes use only static methods (no instantiation). Logging via SLF4J + Logback.
